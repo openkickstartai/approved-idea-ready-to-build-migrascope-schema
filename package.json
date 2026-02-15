@@ -1,0 +1,23 @@
+{
+  "name": "migrascope",
+  "version": "1.0.0",
+  "description": "Database migration risk analyzer — preview schema change impact before deploying",
+  "bin": {
+    "migrascope": "./src/index.ts"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "serve": "tsx src/index.ts serve"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  }
+}
